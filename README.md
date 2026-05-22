@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-456-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-459-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -50,7 +50,7 @@ The core goal is simple: compress prose-style prompts into structured protocols.
 
 - [Full case gallery](docs/gallery.md)
 - [Gallery Part 1: cases 1-165](docs/gallery-part-1.md)
-- [Gallery Part 2: cases 166-456](docs/gallery-part-2.md)
+- [Gallery Part 2: cases 166-459](docs/gallery-part-2.md)
 - [Industrial prompt templates and pitfalls guide](docs/templates.md)
 - [Agent skill: GPT-Image2 Style Library](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -71,7 +71,7 @@ Start with the case album to find a visual direction, then open the prompt templ
       <a href="docs/gallery.md#cat-ui"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 Charts & Infographics</strong><br><sub>48 cases</sub></p>
+      <p><strong>📊 Charts & Infographics</strong><br><sub>49 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="Charts and infographics" width="220"></a><br>
       <sub>Infographics, knowledge maps, technical explainers, and structured diagrams.</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>View Cases</strong></a>
@@ -91,7 +91,7 @@ Start with the case album to find a visual direction, then open the prompt templ
       <a href="docs/gallery.md#cat-product"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🏷️ Brand & Logos</strong><br><sub>22 cases</sub></p>
+      <p><strong>🏷️ Brand & Logos</strong><br><sub>23 cases</sub></p>
       <a href="docs/gallery.md#cat-brand"><img src="data/images/category-covers/brand.jpg" alt="Brand and logos" width="220"></a><br>
       <sub>Logos, identity systems, brand touchpoints, and campaign visuals.</sub><br>
       <a href="docs/gallery.md#cat-brand"><strong>View Cases</strong></a>
@@ -111,7 +111,7 @@ Start with the case album to find a visual direction, then open the prompt templ
       <a href="docs/gallery.md#cat-photo"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 Illustration & Art</strong><br><sub>45 cases</sub></p>
+      <p><strong>🎨 Illustration & Art</strong><br><sub>46 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="Illustration and art" width="220"></a><br>
       <sub>Illustration, art styles, material experiments, and decorative images.</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>View Cases</strong></a>
@@ -153,14 +153,14 @@ Start with the case album to find a visual direction, then open the prompt templ
     <td width="33%" valign="top" align="center">
       <h4>🖼️ Full Gallery</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="Full gallery" width="220"></a><br>
-      <sub>Browse all 456 cases by gallery part and category.</sub><br>
+      <sub>Browse all 459 cases by gallery part and category.</sub><br>
       <a href="docs/gallery.md"><strong>Open Gallery</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ Latest Additions</h4>
-      <a href="docs/gallery-part-2.md#case-456"><img src="data/images/case456.jpg" alt="Latest additions" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-459"><img src="data/images/case459.jpg" alt="Latest additions" width="220"></a><br>
       <sub>The newest community cases and workflows collected in the repo.</sub><br>
-      <a href="docs/gallery-part-2.md#case-456"><strong>View Latest</strong></a>
+      <a href="docs/gallery-part-2.md#case-459"><strong>View Latest</strong></a>
     </td>
   </tr>
 </table>
@@ -428,22 +428,22 @@ Only the latest collection and import run is shown here. Older imports stay in t
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 454: Travel-Food Chips Poster</strong></p>
-      <a href="docs/gallery-part-2.md#case-454"><img src="data/images/case454.jpg" alt="Travel-food chips poster" width="150"></a><br>
-      <sub>A tourism-flavored product ad prompt with spiraling sauce ribbons, local landmarks, miniature travelers, and premium package layout.</sub><br>
-      <a href="docs/gallery-part-2.md#case-454"><strong>View Case</strong></a>
+      <p><strong>Case 457: Kinetic Dancer Light-Trail Poster</strong></p>
+      <a href="docs/gallery-part-2.md#case-457"><img src="data/images/case457.jpg" alt="Kinetic dancer light-trail poster" width="150"></a><br>
+      <sub>A function-style prompt for turning legendary dance movement sequences into luminous chronophotography portraits.</sub><br>
+      <a href="docs/gallery-part-2.md#case-457"><strong>View Case</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 455: Oversized Comfort Clog Campaign</strong></p>
-      <a href="docs/gallery-part-2.md#case-455"><img src="data/images/case455.jpg" alt="Oversized comfort clog campaign" width="150"></a><br>
-      <sub>A clean commercial product prompt combining a giant shoe, athleisure model, reflective studio floor, and bold campaign typography.</sub><br>
-      <a href="docs/gallery-part-2.md#case-455"><strong>View Case</strong></a>
+      <p><strong>Case 458: Paris Autumn Fashion Illustration</strong></p>
+      <a href="docs/gallery-part-2.md#case-458"><img src="data/images/case458.jpg" alt="Paris autumn fashion illustration" width="150"></a><br>
+      <sub>A fashion illustration prompt with detailed garment materials, Paris street atmosphere, golden-hour light, and polished linework.</sub><br>
+      <a href="docs/gallery-part-2.md#case-458"><strong>View Case</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 456: Historical Events 2x2 Visual Map</strong></p>
-      <a href="docs/gallery-part-2.md#case-456"><img src="data/images/case456.jpg" alt="Historical events 2x2 visual map" width="150"></a><br>
-      <sub>A weighted prompt formula for turning famous historical events into diorama maps, first-person UI, and period newspaper panels.</sub><br>
-      <a href="docs/gallery-part-2.md#case-456"><strong>View Case</strong></a>
+      <p><strong>Case 459: Milk Tea Brand KV Poster</strong></p>
+      <a href="docs/gallery-part-2.md#case-459"><img src="data/images/case459.jpg" alt="Milk tea brand KV poster" width="150"></a><br>
+      <sub>A commercial brand KV prompt covering logo cues, product hero layout, slogan generation, aspect ratios, and visual restrictions.</sub><br>
+      <a href="docs/gallery-part-2.md#case-459"><strong>View Case</strong></a>
     </td>
   </tr>
 </table>
