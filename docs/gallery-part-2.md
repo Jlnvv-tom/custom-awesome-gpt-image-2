@@ -9459,3 +9459,570 @@ Render_Target =
 ```
 
 ***
+
+<a name="case-457"></a>
+
+### 例 457：运动轨迹舞者光绘海报
+
+![运动轨迹舞者光绘海报](../data/images/case457.jpg)
+
+**来源：** [@Gdgtify](https://x.com/Gdgtify/status/2057741253127594118)
+
+**提示词：**
+
+```text
+<instructions>
+input = 3 legendary dancer/choreographer
+input = ai inferred signature movement sequence
+
+function render_kinesphere ($ dancer, $ movement)
+  anchor:
+    [figure composed entirely of motion trails] :: [the $ movement sequence traced as continuous luminous bands that coalesce into a portrait of $ dancer]::5
+
+  morphology:
+    the arabesque trails weave the skull, a grand jeté arc forms the cheekbone, the arms' sweep creates the jaw, stillness is implied by negative spaces::4
+
+  material physics:
+    blackened silver gelatin print, faint chemical residue, slight motion blur, glowing filament traces like a Marey wheel photograph::3
+
+  illumination:
+    complete darkness with bioluminescent-like light trails, no external light sources, high contrast::2
+
+  render stack:
+    chronophotography, fine art dance study, 8k, kinetic sculpture concept::1
+
+  negative:
+    [still body parts, studio lights, solid silhouettes]::-1
+</instructions>
+```
+
+***
+
+<a name="case-458"></a>
+
+### 例 458：巴黎秋季时装插画
+
+![巴黎秋季时装插画](../data/images/case458.jpg)
+
+**来源：** [@heyfatema](https://x.com/heyfatema/status/2057745100365787170)
+
+**提示词：**
+
+```text
+Full-body fashion illustration of a young woman walking down a Parisian street in autumn, wearing a long camel wool coat draped open over a black ribbed turtleneck sweater and high-waisted wide-leg cream trousers, holding a quilted tan leather shoulder bag with interlocking CC logo and chain strap in her left hand while her right hand slides into a pocket, short dark brown wavy hair gently lifted by a breeze, pearl stud earrings, natural fresh makeup and a confident serene expression; cinematic shallow depth of field with soft warm golden-hour light, subtle bokeh on Haussmann-style buildings and slow-moving cars in the blurred background, scattered fallen leaves on the pavement; semi-realistic digital painting / fashion illustration style with clean linework, soft gradients, high-detail fabric textures and realistic folds, emphasis on elegant silhouettes and tactile materials, muted autumn palette (camel, cream, black, warm ochre), vertical composition, crisp foreground, gentle film grain and polished finishing.
+```
+
+***
+
+<a name="case-459"></a>
+
+### 例 459：品牌奶茶 KV 概念海报
+
+![品牌奶茶 KV 概念海报](../data/images/case459.jpg)
+
+**来源：** [@liyue_ai](https://x.com/liyue_ai/status/2057739678485495885) / [提示词回复](https://x.com/liyue_ai/status/2057739894261518670)
+
+**提示词：**
+
+```text
+你是一个品牌视觉识别系统、商业广告创意总监、KV海报设计师和高传播品牌视觉生成系统。
+
+请根据用户输入的【现有品牌名称】，自动识别该品牌最具代表性的品牌Logo形象、品牌名称文字识别特征、主推产品、产品包装、品牌色彩、视觉调性、目标人群和广告传播风格，并生成一张符合该品牌气质的概念 KV 海报。
+
+创作定位：
+- 基于真实品牌认知进行二次创作的品牌概念 KV 海报
+- Brand-inspired Concept Key Visual
+- 用于个人学习、视觉练习与社交平台展示
+
+不需要绝对严苛的一比一官方复刻，但必须做到：
+
+品牌识别度高；
+品牌Logo风格明显；
+品牌代表产品明显；
+品牌调性准确；
+整体像该品牌会出现的视觉广告。
+
+────────────────
+一、用户输入
+────────────────
+
+品牌名称：{品牌名称}
+
+主推产品：{可选，不填则自动识别该品牌最具代表性的产品}
+广告语：{可选，不填则根据品牌调性自动生成原创广告语}
+目标人群：{可选，不填则自动判断}
+画幅比例：{9:16 / 16:9 / 4:5 / 1:1 / 2.35:1}
+KV类型：{产品英雄KV / 品牌情绪KV / 强口号传播KV / 人物场景KV / 超现实概念KV / 自动选择}
+平台用途：{小红书 / X / 公众号封面 / 视觉练习 / 概念提案}
+
+────────────────
+二、自动识别逻辑
+────────────────
+
+请根据品牌名称自动完成以下识别，不需要在画面中展示分析过程：
+
+1. 自动识别该品牌所属行业
+例如：
+科技、运动、美妆、奢侈品、汽车、饮品、咖啡、服饰、潮流、护肤、珠宝、生活方式、数码、家居等。
+
+2. 自动识别该品牌最具代表性的视觉资产
+包括：
+品牌Logo形象
+品牌名称文字风格
+主色调与辅助色
+最具代表性的产品
+包装外观特征
+品牌常见广告风格
+品牌场景气质
+品牌材质感与光影方式
+
+3. 自动识别该品牌的目标人群
+例如：
+年轻潮流人群、都市白领、精致女性、运动人群、科技用户、高端消费人群、Z世代、商务人群等。
+
+4. 自动识别该品牌的广告语气质
+例如：
+极简高级、年轻活力、热血冲击、奢华克制、温柔浪漫、科技理性、时尚先锋、生活方式化等。
+
+────────────────
+三、Logo与产品识别规则
+────────────────
+
+本次任务允许 AI 根据品牌名称自动识别品牌视觉资产，不需要用户必须上传 Logo 或产品图。
+
+请遵守以下原则：
+
+1. 品牌Logo
+- 画面中需要有明显的品牌标识
+- Logo 或品牌名称文字要具有较高识别度
+- 不必追求百分之百精确复刻，但必须让人一眼联想到该品牌
+- 不要生成完全陌生、无关、错误感很强的标识
+- 不要让品牌名称出现明显错字、乱码或胡乱变形
+
+2. 品牌产品
+- 自动选择该品牌最具代表性的主推产品或经典产品作为主视觉
+- 产品外观、包装、色彩和气质应接近大众对该品牌的常见认知
+- 不需要绝对严格到工业级复刻
+- 但要保证“像这个品牌的真实代表产品”，避免完全陌生的产品
+
+3. 品牌包装与材质
+- 自动识别该品牌常见包装与材质语言
+- 如金属、玻璃、磨砂、塑料、皮革、纸盒、极简包装、奢华包装、运动感材质等
+- 产品必须具有真实商业视觉质感
+
+────────────────
+四、KV创意方向
+────────────────
+
+请根据品牌属性自动选择最合适的 KV 创意方式。
+
+如果是科技品牌：
+使用极简、未来感、真实产品质感、冷静留白、克制光影、干净空间。
+
+如果是运动品牌：
+使用速度感、力量感、身体动势、汗水、冲刺、突破、强烈口号感。
+
+如果是美妆品牌：
+使用柔光、精致产品、肌肤质感、女性气质、色彩情绪、时尚大片感。
+
+如果是奢侈品牌：
+使用高级材质、留白、低饱和色调、秩序构图、稀缺感、时尚大片感。
+
+如果是饮品品牌：
+使用冰爽、液体、气泡、年轻感、快乐氛围、色彩冲击、清爽材质。
+
+如果是咖啡品牌：
+使用温度、城市生活、松弛氛围、绿色或木质感、晨间陪伴感。
+
+如果是汽车品牌：
+使用道路、速度、未来空间、金属质感、城市夜景、驾驶欲望。
+
+如果是潮流品牌：
+使用街头、反叛、年轻、图形感、视觉冲击和社交传播感。
+
+────────────────
+五、广告语规则
+────────────────
+
+如果用户没有输入广告语，请根据品牌调性自动生成一句原创广告语。
+
+要求：
+
+- 广告语不能太长
+- 要有品牌感和传播感
+- 不使用官方原广告语
+- 不需要像正式企业公告
+- 更像概念广告的主标语
+
+中文广告语建议：
+4到12个字
+
+英文广告语建议：
+2到6个单词
+
+广告语风格要与品牌匹配，例如：
+
+科技品牌：
+更少干扰，更近未来
+
+运动品牌：
+把极限踩在脚下
+
+美妆品牌：
+光泽，自成主张
+
+奢侈品牌：
+优雅，从不喧哗
+
+饮品品牌：
+这一口，刚好上头
+
+咖啡品牌：
+唤醒城市的温度
+
+汽车品牌：
+驶向更远的秩序
+
+────────────────
+六、画面结构要求
+────────────────
+
+整张图必须具备真实品牌 KV 的基本结构：
+
+1. 品牌标识区
+品牌Logo或品牌名称需要清晰可见，位置合理。
+
+2. 产品主视觉区
+品牌代表产品必须明显，是画面核心之一。
+
+3. 广告语区
+广告语清晰可读，具备传播记忆点。
+
+4. 品牌氛围区
+背景、光影、材质、空间和色彩必须符合品牌调性。
+
+5. 信息层级区
+画面层级建议为：
+品牌标识
+产品主体
+广告语
+少量辅助文字
+
+文字不要太多，不要做成密密麻麻的海报。
+
+────────────────
+七、风格要求
+────────────────
+
+整体视觉必须具备：
+
+高识别度品牌感
+高级商业广告质感
+清晰品牌标识
+明显品牌产品
+强主视觉
+强广告语
+干净排版
+适合社交平台传播
+适合小红书和X展示
+具有“像某知名品牌概念广告”的完成度
+
+允许适度创意发挥，但品牌核心识别不能丢失。
+
+────────────────
+八、画幅适配
+────────────────
+
+如果是 9:16：
+适合竖版社交海报，产品更聚焦，广告语放中上区域，适合手机浏览。
+
+如果是 16:9：
+适合横版品牌KV、封面、头图，产品与广告语形成左右平衡。
+
+如果是 4:5：
+适合社交平台信息流，主体更近，品牌识别更集中。
+
+如果是 2.35:1：
+适合公众号封面或宽幅视觉，适合大字广告语和强冲击横版构图。
+
+如果是 1:1：
+适合方形封面与品牌视觉展示。
+
+────────────────
+九、负面限制
+────────────────
+
+不要生成明显错误的品牌名称。
+不要生成过于离谱的Logo变形。
+不要生成与品牌无关的产品。
+不要生成廉价拼贴感。
+不要生成过多小字。
+不要生成杂乱无章的背景。
+不要生成山寨感很强的画面。
+不要生成像促销海报一样的低级电商视觉。
+不要出现二维码、购买链接、价格标签、活动说明。
+不要让整体画面失去品牌调性。
+
+────────────────
+十、最终目标
+────────────────
+
+请生成一张基于真实品牌认知自动识别完成的品牌概念 KV 海报。
+
+要求：
+无需用户上传 Logo 和产品素材；
+由AI自动识别该品牌最具代表性的Logo形象与代表产品；
+不要求绝对严格复刻；
+但必须保持高识别度、高品牌感、高完成度；
+整体像一张高级品牌概念广告海报；
+适合个人学习、视觉练习和社交平台展示。
+
+————
+品牌名称：{蜜雪冰城}
+主推产品：{奶茶}
+广告语：{可选，如果用户不输入，则根据品牌调性自动生成一句高传播感广告语}
+目标人群：{年轻潮流人群}
+画幅比例：{9:16}
+KV类型：{产品英雄KV}
+平台用途：{小红书}
+```
+
+***
+
+<a name="case-460"></a>
+
+### 例 460：棋盘低角度奢华男装 Campaign
+
+![棋盘低角度奢华男装 Campaign](../data/images/case460.jpg)
+
+**来源：** [@harboriis](https://x.com/harboriis/status/2058414859658956888)
+
+**提示词：**
+
+```text
+Ultra-realistic luxury fashion campaign poster shot from a dramatic low-angle perspective across a glossy chessboard table. A stylish young male model with sharp facial features, textured curly hair, wearing thin luxury glasses and a fitted sleeveless knitted brown vest, leaning forward in a confident pose. One hand extended toward the camera holding a large white king chess piece in forced perspective, dominating the foreground. Tattooed arms visible, intense confident facial expression, direct eye contact. Elegant vintage royal interior background with dark paneled walls, warm chandelier wall lights, cinematic amber lighting, moody shadows, luxury editorial atmosphere. Chess pieces scattered on the board in foreground and background for depth. High contrast premium fashion advertising style, ultra-detailed skin texture, sharp focus on face and chess piece, shallow depth of field, glossy reflections on chessboard, dramatic commercial campaign photography, luxury menswear brand aesthetic. Bold typography at bottom saying “DRESSED TO DOMINATE”, premium poster layout, cinematic color grading, high-end fashion ad, editorial magazine quality, 4:5 aspect ratio.
+```
+
+***
+
+<a name="case-461"></a>
+
+### 例 461：家庭旅行纸雕拼贴
+
+![家庭旅行纸雕拼贴](../data/images/case461.jpg)
+
+**来源：** [@Taaruk_](https://x.com/Taaruk_/status/2058400056722731079)
+
+**提示词：**
+
+```text
+Adorable kawaii family travel collage, combining four different scenes in one composition, cute anime-inspired parents, friends and children taking selfies and exploring together, handcrafted paper-cut diorama style, layered cardboard and felt textures, miniature world aesthetic, cozy pastel color palette, soft cinematic lighting, playful vacation atmosphere, urban city station scene, shopping mall selfie corner, outdoor nature park, and crowded playground blended into one seamless scrapbook-style artwork, charming sticker-like white outlines around characters, tiny tourists and pedestrians in background, whimsical handcrafted textures, soft depth of field, highly detailed paper craft illustration, warm nostalgic mood, cute casual outfits with glasses, caps, bags and sandals, dreamy Instagram kawaii aesthetic, storybook composition, ultra detailed miniature environment, 3D layered paper art, tilt-shift effect, cozy wholesome family travel vibes, premium handcrafted look, high detail, 8k, vertical composition
+```
+
+***
+
+<a name="case-462"></a>
+
+### 例 462：复古日系迷你橡皮商品包装
+
+![复古日系迷你橡皮商品包装](../data/images/case462.jpg)
+
+**来源：** [@ZetoGroovin](https://x.com/ZetoGroovin/status/2058408514247410003)
+
+**提示词：**
+
+```text
+添付されたキャラクターシートをSTRICTなデザインリファレンスとして使用すること。 キャラクターの顔、髪型、目の形、プロポーションは絶対に変更しない。
+
+■目的： キャラクターを日本の「ちび消しゴム商品」として完全に商品化し、 実際に文房具売り場やガチャで販売されているようなリアルなパッケージ商品写真を作成する。
+
+■コンセプト： 「100円ショップや文房具店で売られている袋入りちび消しゴム商品」
+
+■消しゴム本体： （※前回と同じ仕様を完全維持） - 強いデフォルメちびキャラ - 厚みのあるブロック形状 - 完全マットなラバー素材 - 微細な粒子・粉・削れ・摩耗あり - 印刷ズレ・色ブレあり - 50個以上のランダム構成
+
+■パッケージ（超重要）： - 小さな透明ビニール袋（OPP袋） - 上部に紙ヘッダー（吊り下げ用の穴あり） - ヘッダーはややチープな印刷（軽いズレ・インクのムラ） - ビニールはシワあり、やや曇り、静電気で中身に張り付く - 一部空気が入ってふくらみあり - シール部分に軽いヨレ
+
+■グラフィックデザイン： - 日本の子供向け文房具風デザイン - ポップでカラフル（ピンク・黄色・水色ベース） - 手書き風フォントや丸文字 - 商品名ロゴ（オリジナルでOK） - 「ミニけし」「ちびけし」などの表記 - 星・ハート・キラキラ装飾
+
+■情報要素（リアル感強化）： - JANコード（バーコード） - 「対象年齢6才以上」 - 「食べられません」注意書き - 「全◯種」や「ランダム封入」 - 小さな会社名（架空） - MADE IN JAPAN or CHINA表記
+
+■構図： - パッケージがメインで画面中央 - 周囲に少しだけこぼれた消しゴム - 1〜2個は袋から出ている - 指先が1つをつまもうとしている演出 - 一部フレームアウトで自然さ
+
+■レア要素： - 蛍光カラーやグラデーションの特別個体を1つ混ぜる - 視線誘導として目立つ位置に配置
+
+■ライティング： - 明るい自然光（ややハイキー） - 柔らかい影 - 商品写真のような清潔感
+
+■カメラ： - マクロ寄り - 浅い被写界深度 - 中央シャープ
+
+■背景： - 白〜パステルのテーブル - ほんのりドットやポップ柄 - シンプルで清潔
+
+■禁止： - プラスチック感 - glossy表現 - 高級すぎる質感（安っぽさが正解） - 完璧すぎる印刷
+
+■出力： - 実在する商品にしか見えないレベル - コンビニや100均にありそうなリアリティ - SNSで「これ欲しい」と思わせる完成度
+```
+
+***
+
+<a name="case-463"></a>
+
+### 例 463：黑色吊带袜单款图鉴展示
+
+![黑色吊带袜单款图鉴展示](../data/images/case463.jpg)
+
+**来源：** [@MrLarus](https://x.com/MrLarus/status/2058175014168396245) / [提示词回复](https://x.com/MrLarus/status/2058175145328394441)
+
+**提示词：**
+
+```text
+《黑色丝袜图鉴款式单图》提示词：
+
+请基于同一套「黑色丝袜 / 吊带袜图鉴」系列风格，继续生成 8 张对应单款的独立展示图。
+
+【系列要求】
+- 这些图片必须和已完成的总览图鉴属于同一个系列
+- 整体版式、字体、色调、背景、质感、排版逻辑保持一致
+- 都是竖版、高完成度、暖白 / 浅灰白背景、轻奢女性向时尚图鉴风格
+- 每一张都像同一个品牌或同一套视觉系统下的延展页面
+
+【每张单图的共同结构】
+1. 顶部标题区
+- 英文系列标题：BLACK GARTER GUIDE
+- 中文主标题：黑色丝袜 / 吊带袜单款展示
+- 当前款式名称：__________
+- 一句简短副标题：突出该款式的核心特点
+
+2. 中部主体区
+- 以 1 位成人女性模特穿戴展示为主
+- 重点展示对应款式的关键细节：
+  - 经典蕾丝款：袜口蕾丝、优雅氛围
+  - 细网眼款：网格纹理、轻盈通透
+  - 波点款：波点图案、复古俏皮
+  - 后缝线款：背后缝线、线条感
+  - 竖条纹款：纵向条纹、修饰腿型
+  - 交叉绑带款：绑带结构、设计感
+  - 极简透肤款：透明感、基础百搭
+  - 花纹蕾丝款：花纹装饰、浪漫氛围
+- 每张图的人物长相、发型、姿势、镜头角度要不同，但都要保持高级、真实、性感、写实
+- 允许使用站姿、坐姿、交叉腿、倚靠、回眸等不同姿势
+- 画面要有立体感、阴影层次和高级编辑感
+
+3. 注释区
+- 每张图都要保留 3 到 5 条手绘式标注
+- 可以使用箭头、短线、圈注、手写风标签
+- 标注内容要围绕该款式最关键的细节，比如：
+  - 袜口结构
+  - 花纹纹理
+  - 透明度
+  - 缝线位置
+  - 绑带方式
+  - 腿部线条效果
+- 标注文字简洁、清楚、统一风格
+
+4. 底部信息区
+- 加入简短的 “Style Notes / 风格速记”
+- 用 1 到 2 句说明该款适合的场景和氛围
+- 保持简洁，不要抢主体
+
+【统一视觉要求】
+- 保持和总览图鉴完全统一的整体视觉系统
+- 背景统一为暖白、浅灰白或奶白
+- 风格统一为高级、干净、时尚图鉴感、轻奢女性视觉
+- 模特必须真实、立体、写实、自然肤质
+- 每张图都要突出产品，不要低俗，不要过度情色化
+- 每张图都应像同一系列里的不同章节，避免呈现为彼此割裂的作品
+
+【款式列表】
+1. 经典蕾丝款 / Classic Lace
+2. 细网眼款 / Fine Fishnet
+3. 波点款 / Dot Sheer
+4. 后缝线款 / Back Seam
+5. 竖条纹款 / Stripe Sheer
+6. 交叉绑带款 / Cross Strap
+7. 极简透肤款 / Minimal Sheer
+8. 花纹蕾丝袜 / Floral Lace
+
+【输出目标】
+按以上 8 个款式，分别生成 8 张独立展示图。
+要求每张都保留统一系列感，同时人物造型、发型、姿势和镜头语言明显不同，确保整套看起来完整、专业、可收藏。
+```
+
+***
+
+<a name="case-464"></a>
+
+### 例 464：高雄水彩拼贴旅行海报
+
+![高雄水彩拼贴旅行海报](../data/images/case464.jpg)
+
+**来源：** [@SimplyAnnisa](https://x.com/SimplyAnnisa/status/2058372965641662876)
+
+**提示词：**
+
+```text
+Watercolor and collage travel poster for Kaohsiung, Taiwan, vertical layout, soft pastel and warm golden hour color palette.
+
+Scene: Waterfront promenade at sunset with a modern light rail tram on the right, a person walking a bicycle on the left, and people strolling along the path. In the background: Kaohsiung skyline with the 85 Sky Tower and other skyscrapers, a harbor with a ferry boat, port cranes, and the Pier-2 Art Center building with murals. Seagulls flying in the sky, trees lining the walkway, calm water reflecting the light.
+
+Design elements:
+- Large text top left: 'KAO HSIUNG 2026', smaller text below 'Sea Breeze Slow Light Southern City'
+- Top right: Vertical Chinese characters, 'KAOHSIUNG TAIWAN' in small caps below
+- Bottom left: Coordinates '22.6273° N 120.3014° E', 'KAOHSIUNG TAIWAN', wave icon
+- Bottom center: Handwritten script 'Kaohsiung'
+- Bottom right: Vertical list 'Harbor Art Light Rail People Slow Life', vertical Chinese text
+- Overlay effects: Semi-transparent geometric shapes, watercolor splashes, and texture layers in teal and beige
+
+Style: Modern travel poster meets watercolor painting, airy and atmospheric, blend of illustration and photo-collage, warm and tranquil mood, high detail.
+```
+
+***
+
+<a name="case-465"></a>
+
+### 例 465：逆光美背女性情绪写真
+
+![逆光美背女性情绪写真](../data/images/case465.jpg)
+
+**来源：** [@MrLarus](https://x.com/MrLarus/status/2058131948904599860) / [提示词回复](https://x.com/MrLarus/status/2058132915150639425)
+
+**提示词：**
+
+```text
+逆光美背女性情绪写真提示词：
+
+请生成一张竖版高质感女性情绪写真，主题为「逆光美背·女性情绪写真」。
+
+核心要求：
+画面的绝对重点是“美背”，通过露背结构、肩颈线条、肩胛骨、脊柱中线、腰背曲线和逆光轮廓来呈现女性美。请避免普通女性写真或普通穿搭图的处理方式，背部必须是主视觉核心，脸只作为辅助。
+
+人物设定：
+成年女性，真实自然，气质可为温柔、清冷、慵懒、文艺、轻熟或安静。人物不要网红脸，不要塑料感，不要夸张妆容。可侧脸、回眸、低头或闭眼，但正脸不是重点。
+
+姿态要求：
+姿态必须服务于背部展示，例如背对镜头微微回头、侧身站立、侧坐、抬手整理头发、低头蜷身、斜倚窗边、半躺回眸、披衣下滑等。动作自然，不要僵硬摆拍，不要正面直视镜头。
+
+露背结构：
+必须有明确的露背设计，可为低背长裙、吊带裙、露背礼服、针织外套滑落、薄纱披肩、浴袍半披、宽松衬衫滑肩、丝质罩衫半落等。重点表现肩线、肩胛骨、背中线、腰背收束和布料与肌肤之间的高级过渡。
+
+服装与材质：
+服装选择轻柔、垂坠、带有透光感和褶皱感的材质，如薄纱、真丝、针织、棉麻、细闪纱、浴袍质地、软垂感长裙。布料要参与构图，形成半遮半露、滑落、包裹、垂挂的层次，但不能厚重。
+
+场景：
+场景为卧室、窗边、床上、白墙房间、民宿、酒店房间、木质空间或复古公寓。背景简洁克制，少量床品、窗帘、木椅、花束、地板等元素即可，不能喧宾夺主。
+
+光线要求：
+采用自然光或柔和暖光，以逆光、侧逆光、窗边光为主。重点是让光打到背部，勾出肩颈边缘、肩胛骨轮廓、腰线和发丝高光。可使用晨光、黄昏金光、柔雾散射光或冷白窗光，但背部受光状态必须成立。
+
+构图：
+竖版构图，画幅可为 9:16、3:4 或 4:5。人物是绝对主角，视觉重心放在背部、肩颈和腰背曲线上。可采用半身、七分身、近景或全身，但不要让场景抢走主体。
+
+氛围：
+整体氛围安静、柔软、私密、克制、高级，像真实摄影师拍摄的电影感情绪写真。重点避免直白性感，改用“美背 + 逆光 + 柔软布料 + 自然姿态”表达女性美。
+
+画质要求：
+真实摄影感、电影感、柔雾胶片感、细腻肤色、真实皮肤质感、浅景深、轻微颗粒感、画面通透自然。不要 AI 塑料感，不要 CG 感，不要错误手指，不要肢体畸形，不要低俗色情化表达，不要文字、水印、Logo、边框。
+
+最终效果：
+一张以“美背”为主视觉核心的高完成度女性情绪写真，通过露背结构、肩颈背部线条、柔光逆光和柔软布料来呈现克制而高级的女性美。
+```
+
+***

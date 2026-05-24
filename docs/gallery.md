@@ -1,10 +1,10 @@
 ## 🖼️ 魔法画廊总览
 
-完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 456。
+完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 465。
 
 - [返回 README 首页](../README.md)
 - [Part 1：例 1-165](./gallery-part-1.md)
-- [Part 2：例 166-456](./gallery-part-2.md)
+- [Part 2：例 166-465](./gallery-part-2.md)
 - [工业级提示词模板与防坑指南](./templates.md)
 - [声明、Star 趋势图与公众号](./disclaimer.md)
 
@@ -124,22 +124,31 @@
 - [例 454：旅行美食薯片广告海报](./gallery-part-2.md#case-454)
 - [例 455：巨型舒适洞洞鞋 Campaign](./gallery-part-2.md#case-455)
 - [例 456：历史事件 2x2 可视化地图](./gallery-part-2.md#case-456)
+- [例 457：运动轨迹舞者光绘海报](./gallery-part-2.md#case-457)
+- [例 458：巴黎秋季时装插画](./gallery-part-2.md#case-458)
+- [例 459：品牌奶茶 KV 概念海报](./gallery-part-2.md#case-459)
+- [例 460：棋盘低角度奢华男装 Campaign](./gallery-part-2.md#case-460)
+- [例 461：家庭旅行纸雕拼贴](./gallery-part-2.md#case-461)
+- [例 462：复古日系迷你橡皮商品包装](./gallery-part-2.md#case-462)
+- [例 463：黑色吊带袜单款图鉴展示](./gallery-part-2.md#case-463)
+- [例 464：高雄水彩拼贴旅行海报](./gallery-part-2.md#case-464)
+- [例 465：逆光美背女性情绪写真](./gallery-part-2.md#case-465)
 
 ## 分册说明
 
 - `gallery-part-1.md`：例 1-165，覆盖信息图、界面、海报、摄影、插画等基础主流类型。
-- `gallery-part-2.md`：例 166-456，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
+- `gallery-part-2.md`：例 166-465，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
 
 ## 分类概览
 
 - UI与界面：73
-- 图表与信息可视化：48
-- 海报与排版：71
-- 商品与电商：34
-- 品牌与标志：22
+- 图表与信息可视化：50
+- 海报与排版：73
+- 商品与电商：35
+- 品牌与标志：23
 - 建筑与空间：11
-- 摄影与写实：57
-- 插画与艺术：45
+- 摄影与写实：58
+- 插画与艺术：47
 - 人物与角色：21
 - 场景与叙事：17
 - 历史与古风题材：16
@@ -220,7 +229,7 @@
 
 <a name="cat-infographic"></a>
 
-### 📊 图表与信息可视化 · 48 cases
+### 📊 图表与信息可视化 · 50 cases
 
 - [例 8：科普百科图](./gallery-part-1.md#case-8)
 - [例 14：信息图可视化设计](./gallery-part-1.md#case-14)
@@ -270,10 +279,12 @@
 - [例 443：塔可爆炸拆解信息图](./gallery-part-2.md#case-443)
 - [例 447：现代地铁工程信息图](./gallery-part-2.md#case-447)
 - [例 456：历史事件 2x2 可视化地图](./gallery-part-2.md#case-456)
+- [例 457：运动轨迹舞者光绘海报](./gallery-part-2.md#case-457)
+- [例 463：黑色吊带袜单款图鉴展示](./gallery-part-2.md#case-463)
 
 <a name="cat-poster"></a>
 
-### 📰 海报与排版 · 71 cases
+### 📰 海报与排版 · 73 cases
 
 - [例 3：足球主题电影海报](./gallery-part-1.md#case-3)
 - [例 5：主题海报版式设计](./gallery-part-1.md#case-5)
@@ -345,10 +356,12 @@
 - [例 418：中世纪城市旅行海报](./gallery-part-2.md#case-418)
 - [例 431：城市文字旅行海报](./gallery-part-2.md#case-431)
 - [例 432：大堡礁复古旅行海报](./gallery-part-2.md#case-432)
+- [例 460：棋盘低角度奢华男装 Campaign](./gallery-part-2.md#case-460)
+- [例 464：高雄水彩拼贴旅行海报](./gallery-part-2.md#case-464)
 
 <a name="cat-product"></a>
 
-### 🛍️ 商品与电商 · 34 cases
+### 🛍️ 商品与电商 · 35 cases
 
 - [例 17：界面交互设计图](./gallery-part-1.md#case-17)
 - [例 33：电商商品展示设计](./gallery-part-1.md#case-33)
@@ -383,10 +396,11 @@
 - [例 449：奢华机械腕表技术图鉴](./gallery-part-2.md#case-449)
 - [例 454：旅行美食薯片广告海报](./gallery-part-2.md#case-454)
 - [例 455：巨型舒适洞洞鞋 Campaign](./gallery-part-2.md#case-455)
+- [例 462：复古日系迷你橡皮商品包装](./gallery-part-2.md#case-462)
 
 <a name="cat-brand"></a>
 
-### 🏷️ 品牌与标志 · 22 cases
+### 🏷️ 品牌与标志 · 23 cases
 
 - [例 130：界面交互设计图](./gallery-part-1.md#case-130)
 - [例 132：界面交互设计图](./gallery-part-1.md#case-132)
@@ -409,6 +423,7 @@
 - [例 379：品牌人格漫画信息图](./gallery-part-2.md#case-379)
 - [例 386：品牌包络产品广告](./gallery-part-2.md#case-386)
 - [例 444：迪斯科镜面 3D App 图标](./gallery-part-2.md#case-444)
+- [例 459：品牌奶茶 KV 概念海报](./gallery-part-2.md#case-459)
 
 <a name="cat-architecture"></a>
 
@@ -427,7 +442,7 @@
 
 <a name="cat-photo"></a>
 
-### 📷 摄影与写实 · 57 cases
+### 📷 摄影与写实 · 58 cases
 
 - [例 24：漫画分镜叙事设计](./gallery-part-1.md#case-24)
 - [例 26：建筑空间场景图](./gallery-part-1.md#case-26)
@@ -486,10 +501,11 @@
 - [例 436：数码相机屏幕怀旧人像](./gallery-part-2.md#case-436)
 - [例 450：烛光侧室写实摄影](./gallery-part-2.md#case-450)
 - [例 451：韩国海滩日落时尚人像](./gallery-part-2.md#case-451)
+- [例 465：逆光美背女性情绪写真](./gallery-part-2.md#case-465)
 
 <a name="cat-illustration"></a>
 
-### 🎨 插画与艺术 · 45 cases
+### 🎨 插画与艺术 · 47 cases
 
 - [例 6：插画艺术创作图](./gallery-part-1.md#case-6)
 - [例 22：插画艺术风格创作](./gallery-part-1.md#case-22)
@@ -537,6 +553,8 @@
 - [例 445：旅游照水墨明信片](./gallery-part-2.md#case-445)
 - [例 446：低多边形纸艺男士肖像](./gallery-part-2.md#case-446)
 - [例 452：极简童话手绘儿童插画](./gallery-part-2.md#case-452)
+- [例 458：巴黎秋季时装插画](./gallery-part-2.md#case-458)
+- [例 461：家庭旅行纸雕拼贴](./gallery-part-2.md#case-461)
 
 <a name="cat-character"></a>
 
