@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage":"https://github.com/Jlnvv-tom/custom-awesome-gpt-image-2",
   "scripts": {
     "generate:site-data": "node scripts/generate-site-data.mjs",
     "generate:style-skill": "node scripts/generate-style-skill.mjs",
